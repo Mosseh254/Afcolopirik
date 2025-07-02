@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1.5em 1em;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.motto {
+  font-style: italic;
+  margin-top: 0.5em;
+}
+
+section {
+  padding: 1.5em;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #004080;
+  padding-bottom: 0.3em;
+}
+
+.officials, .players {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.official, .player {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.player img, .official img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+footer p {
+  margin: 0;
+}
