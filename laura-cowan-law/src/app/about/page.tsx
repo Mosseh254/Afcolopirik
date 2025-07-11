@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { GraduationCap, Award, Users, Heart, CheckCircle, ArrowRight, Scale, Calculator, Shield } from 'lucide-react'
+import { Award, Users, Heart, CheckCircle, ArrowRight, Scale, Calculator, Shield } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import type { Metadata } from 'next'
 

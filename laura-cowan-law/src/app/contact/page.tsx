@@ -3,8 +3,6 @@
 import React, { useState } from 'react'
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import type { Metadata } from 'next'
-
 // Note: This would normally be exported from the page component, but we'll keep it simple for now
 // export const metadata: Metadata = {
 //   title: "Contact Laura E. Cowan | Book a Consultation | NYC Attorney & CPA",
